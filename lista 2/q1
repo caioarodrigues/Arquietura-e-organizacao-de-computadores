@@ -1,0 +1,29 @@
+.data 
+	arrPosicoes: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+
+.text
+
+	move $s1, $zero #estou arbitrariamente definido 0 a i
+	move $s2, $zero #e a j também
+	addi $s2, $s2, 100 #por testes definindo 100
+	move $s3, $zero #k também se aplica
+	addi $s1, $s1, 100 #i = j + 100
+
+	la $s4, arrPosicoes #carregando as posicoes do array em $s4
+	lw $t0, 60($s4) #carregando em $t0 x[15]
+	add $t0, $t0, $s3 #x[15] + k -> $t0
+	sw $t0, 40($s4) #x[10] -> $t0
+
+	while:
+		add $t1, $s1, $s1		
+		add $t1, $t1, $t1		
+		add $t1, $t1, $s4 		
+		lw $t0, 0($t1)			#$t0 recebe x[i];
+
+		bgt $s4, $s2, saida #desvia o fluxo se x[i] > j
+		
+		add $s3, $t0, $s2 		#k = x[i] + j
+
+		subi $s1, $s1, 1 #i--
+		j while
+	saida:	

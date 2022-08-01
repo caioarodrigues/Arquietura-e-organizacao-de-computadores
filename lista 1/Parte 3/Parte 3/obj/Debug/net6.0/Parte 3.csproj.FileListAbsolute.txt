@@ -1,0 +1,15 @@
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte 3\Parte 3\bin\Debug\net6.0\Parte 3.exe
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte 3\Parte 3\bin\Debug\net6.0\Parte 3.deps.json
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte 3\Parte 3\bin\Debug\net6.0\Parte 3.runtimeconfig.json
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte 3\Parte 3\bin\Debug\net6.0\Parte 3.dll
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte 3\Parte 3\bin\Debug\net6.0\Parte 3.pdb
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte 3\Parte 3\obj\Debug\net6.0\Parte 3.csproj.AssemblyReference.cache
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte 3\Parte 3\obj\Debug\net6.0\Parte 3.GeneratedMSBuildEditorConfig.editorconfig
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte 3\Parte 3\obj\Debug\net6.0\Parte 3.AssemblyInfoInputs.cache
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte 3\Parte 3\obj\Debug\net6.0\Parte 3.AssemblyInfo.cs
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte 3\Parte 3\obj\Debug\net6.0\Parte 3.csproj.CoreCompileInputs.cache
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte 3\Parte 3\obj\Debug\net6.0\Parte 3.dll
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte 3\Parte 3\obj\Debug\net6.0\refint\Parte 3.dll
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte 3\Parte 3\obj\Debug\net6.0\Parte 3.pdb
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte 3\Parte 3\obj\Debug\net6.0\Parte 3.genruntimeconfig.cache
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte 3\Parte 3\obj\Debug\net6.0\ref\Parte 3.dll

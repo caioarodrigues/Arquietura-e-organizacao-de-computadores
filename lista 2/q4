@@ -1,0 +1,58 @@
+.data
+	msg1: .asciiz "Insira x: "
+	msg2: .asciiz "insira y: "
+	msg3: .asciiz "x e y valem, respecitvamente: "
+	newline: "\n"
+.text
+	li $v0, 4 
+	la $a0, msg1 #chama msg1
+	syscall
+		
+	li	$v0, 5		
+	syscall	
+	move	$s0, $v0	# resultado do syscall retorna em $s0, ler o valor de x
+		
+	li $v0, 4
+	la $a0, newline
+	syscall
+	
+	li $v0, 4 
+	la $a0, msg2 #chama msg2
+	syscall
+		
+	li	$v0,5		
+	syscall	
+	move	$s1, $v0	# resultado do syscall retorna em $s1, ler o valor de y
+	
+	li $v0, 4
+	la $a0, newline
+	syscall
+	
+	# x > y ? (x += y : y -= x)
+	bgt $s0, $s1, xMaiorQueY 
+	ble $s0, $s1, yMaiorQueX
+	
+	xMaiorQueY:
+		add $s0, $s0, $s1
+		j printResultado
+	yMaiorQueX:
+		sub $s1, $s1, $s0
+		j printResultado
+
+	printResultado:
+		li $v0, 4 
+		la $a0, msg3 #chama msg3, o resultado
+		syscall
+	
+		li $v0, 1
+		move $a0, $s0 #x
+		syscall
+		
+		li $v0, 4
+		la $a0, newline
+		syscall
+	
+		li $v0, 1
+		move $a0, $s1 #y
+		syscall
+	

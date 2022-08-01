@@ -1,0 +1,8 @@
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte_1\Parte_1\bin\Debug\Parte_1.exe.config
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte_1\Parte_1\bin\Debug\Parte_1.exe
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte_1\Parte_1\bin\Debug\Parte_1.pdb
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte_1\Parte_1\obj\Debug\Parte_1.csproj.AssemblyReference.cache
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte_1\Parte_1\obj\Debug\Parte_1.csproj.SuggestedBindingRedirects.cache
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte_1\Parte_1\obj\Debug\Parte_1.csproj.CoreCompileInputs.cache
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte_1\Parte_1\obj\Debug\Parte_1.exe
+D:\ufc\4º período\arquitetura e organização de computadores\lista 1\Parte_1\Parte_1\obj\Debug\Parte_1.pdb
